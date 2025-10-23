@@ -1,0 +1,12 @@
+{
+  "name": "solar-system",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist -m \"Update GitHub Pages\""
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.1.11"
+  }
+}
